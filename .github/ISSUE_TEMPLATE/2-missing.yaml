@@ -1,0 +1,27 @@
+name: Missing Asset
+description: Report a missing asset.
+title: "[Missing]: "
+labels: ["missing asset"]
+assignees:
+  - skuqre
+body:
+  - type: textarea
+    id: asset
+    attributes:
+      label: What asset is missing?
+      description: You can put in character names, event names... anything, really.
+    validations:
+      required: true
+  - type: dropdown
+    id: branch
+    attributes:
+      label: At what page / feature are you seeing this problem in?
+      multiple: false
+      options:
+        - Beastiary
+        - Battlefield Info
+        - Jukebox
+        - Viewer
+        - Gallery
+    validations:
+      required: true
