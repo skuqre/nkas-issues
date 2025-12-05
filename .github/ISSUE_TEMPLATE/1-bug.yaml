@@ -1,0 +1,33 @@
+name: Bug
+description: Report an issue with the site. If it's an asset that is missing, please use "Missing Asset" instead.
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - skuqre
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell me, what did you expect to happen?
+      placeholder: Let it be a vivid description. If it's vague, I can't really help you.
+    validations:
+      required: true
+  - type: textarea
+    id: step-by-step
+    attributes:
+      label: Step by step
+      description: Instructions to reproduce the bug would be nice as well.
+  - type: dropdown
+    id: branch
+    attributes:
+      label: At what page / feature are you seeing this problem in?
+      multiple: false
+      options:
+        - Beastiary
+        - Battlefield Info
+        - Jukebox
+        - Viewer
+        - Gallery
+    validations:
+      required: true
