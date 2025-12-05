@@ -1,5 +1,5 @@
 name: Question
-description: Report an issue with the site. If it's an asset that is missing, please use "Missing Asset" instead.
+description: Open ended question
 title: "[Question]: "
 labels: ["question"]
 assignees:
