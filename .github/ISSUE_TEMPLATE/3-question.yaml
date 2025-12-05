@@ -1,0 +1,25 @@
+name: Question
+description: Report an issue with the site. If it's an asset that is missing, please use "Missing Asset" instead.
+title: "[Question]: "
+labels: ["question"]
+assignees:
+  - skuqre
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What's your question?
+      placeholder: Feature request, or just a general open-ended question.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Please read and tick the following...
+      options:
+        - label: This is not a question about datamining.
+          required: true
+        - label: This is not a question about an actual game bug.
+          required: true
+        - label: This is not a question about Anisé, the Discord Bot.
+          required: true
