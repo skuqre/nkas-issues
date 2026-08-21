@@ -18,7 +18,7 @@ body:
       label: At what page / feature are you seeing this problem in?
       multiple: false
       options:
-        - Beastiary
+        - Bestiary
         - Battlefield Info
         - Jukebox
         - Viewer
