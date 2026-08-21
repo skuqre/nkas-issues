@@ -5,6 +5,10 @@ labels: ["bug"]
 assignees:
   - skuqre
 body:
+  - type: markdown
+    attributes:
+      value: |
+        I recommend you to add some device specfications and what browser you're using (e.g. Chrome, Firefox, Brave, etc.). That way, I can fix the issue faster without guessing your specific environment when the bug occurred.
   - type: textarea
     id: what-happened
     attributes:
@@ -24,7 +28,7 @@ body:
       label: At what page / feature are you seeing this problem in?
       multiple: false
       options:
-        - Beastiary
+        - Bestiary
         - Battlefield Info
         - Jukebox
         - Viewer
