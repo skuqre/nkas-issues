@@ -8,6 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        Please add to the title above to include a brief sentence that provides the gist of your issue.
+        
         I recommend you to add some device specfications and what browser you're using (e.g. Chrome, Firefox, Brave, etc.). That way, I can fix the issue faster without guessing your specific environment when the bug occurred.
   - type: textarea
     id: what-happened
