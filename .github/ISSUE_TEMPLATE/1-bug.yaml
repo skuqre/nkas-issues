@@ -30,10 +30,13 @@ body:
       label: At what page / feature are you seeing this problem in?
       multiple: false
       options:
+        - Nikkes
         - Bestiary
         - Battlefield Info
         - Jukebox
         - Viewer
         - Gallery
+        - Advise Answers
+        - Chibi Viewer
     validations:
       required: true
